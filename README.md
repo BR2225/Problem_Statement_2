@@ -26,8 +26,8 @@ In this project, we used:
 ### ✅ Minikube Cluster Setup
 
 ```powershell
-             minikube start
-             kubectl get nodes
+minikube start
+kubectl get nodes
 ```
 ## 🧰 What is Kubescape?
 
@@ -75,6 +75,29 @@ Kubescape supports multiple scanning frameworks:
 minikube start
 
 ```
+![Screenshot 2025-06-22 100606](https://github.com/user-attachments/assets/bc725f7f-1d69-4c7c-9adc-aa8f8955061e)
+
+## 2. Install Kubescape
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/kubescape/kubescape/master/install.ps1 | iex
+```
+## 3. Verify installation:
+```
+kubescape version
+```
+## 4. Run a Security Scan:
+```
+kubescape scan framework nsa --format json --output results.json
+```
+### This command:
+
+Uses the NSA framework
+
+Scans the entire Minikube cluster
+
+Outputs results to results.json
+
 
 
 
