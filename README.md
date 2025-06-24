@@ -4,7 +4,7 @@
 **Background/Task:**  
 Install local K8s cluster (such as Minikube, K3s, Kind, etc) and use a tool such as Kubescape (or any other tool) to scan for findings and send the list of the findings.
 
-**Deliverables:**
+## Deliverables:
 A JSON file containing the k8s findings.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ⚙️ What is Minikube?
@@ -17,12 +17,14 @@ A JSON file containing the k8s findings.
 
 In this project, we used:
 
-- Minikube v1.36.0
-- Kubernetes v1.33.1
+- Minikube v1.33.1
+- Kubescape v3.0.34
 - Docker driver
+![Screenshot 2025-06-22 100542](https://github.com/user-attachments/assets/fed96a2a-f0c5-4289-a60b-fdabac1640c0)
 
 ### ✅ Minikube Cluster Setup
 
 ```powershell
 minikube start
 kubectl get nodes
+
