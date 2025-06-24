@@ -100,4 +100,12 @@ Outputs results to results.json
 
 
 
+![Screenshot 2025-06-22 100625](https://github.com/user-attachments/assets/9ecfe46b-7d93-44c3-aa25-ca30d9ba2f5e)
 
+## 5. View and Verify Output:
+```
+cat .\results.json
+```
+
+
+![Screenshot 2025-06-22 100700](https://github.com/user-attachments/assets/ca90e608-ec91-4687-97c8-bb185ef5f122)
